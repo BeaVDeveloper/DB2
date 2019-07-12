@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.2)
+  - JGProgressHUD (2.0.3)
+  - SwiftyJSON (5.0.0)
+  - SwiftyPickerPopover (6.6.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - JGProgressHUD
+  - SwiftyJSON
+  - SwiftyPickerPopover
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JGProgressHUD
+    - SwiftyJSON
+    - SwiftyPickerPopover
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyPickerPopover: f2975fd0233d04c0a8f8d52d09b6f24b882de6fb
+
+PODFILE CHECKSUM: fbbb87d2b903744eeee32c00ea3768bc2996233b
+
+COCOAPODS: 1.7.2

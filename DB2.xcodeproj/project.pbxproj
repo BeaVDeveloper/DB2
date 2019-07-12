@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1B3DA01C22D8EDEF006DBFF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA01B22D8EDEF006DBFF0 /* AppDelegate.swift */; };
-		1B3DA01E22D8EDEF006DBFF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA01D22D8EDEF006DBFF0 /* ViewController.swift */; };
+		1B3DA01E22D8EDEF006DBFF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA01D22D8EDEF006DBFF0 /* MainViewController.swift */; };
 		1B3DA02122D8EDEF006DBFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DA01F22D8EDEF006DBFF0 /* Main.storyboard */; };
 		1B3DA02322D8EDF0006DBFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DA02222D8EDF0006DBFF0 /* Assets.xcassets */; };
 		1B3DA02622D8EDF0006DBFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3DA02422D8EDF0006DBFF0 /* LaunchScreen.storyboard */; };
+		1B3DA03322D8EE37006DBFF0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03222D8EE37006DBFF0 /* Globals.swift */; };
+		1B3DA03522D8EE42006DBFF0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03422D8EE42006DBFF0 /* Service.swift */; };
+		1B3DA03722D8EE77006DBFF0 /* PrivatBankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03622D8EE77006DBFF0 /* PrivatBankCell.swift */; };
+		1B3DA03922D8EE89006DBFF0 /* NBUCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03822D8EE89006DBFF0 /* NBUCell.swift */; };
+		1B3DA03B22D8EEA0006DBFF0 /* NBU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03A22D8EEA0006DBFF0 /* NBU.swift */; };
+		1B3DA03D22D8EEC5006DBFF0 /* PrivatBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03C22D8EEC5006DBFF0 /* PrivatBank.swift */; };
+		1B3DA03F22D8EEDC006DBFF0 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DA03E22D8EEDC006DBFF0 /* DatabaseManager.swift */; };
+		6277468DC20EC6CCD5A8C5CD /* Pods_DB2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D9E7B4677A161D35A315F6 /* Pods_DB2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B3DA01822D8EDEF006DBFF0 /* DB2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DB2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3DA01B22D8EDEF006DBFF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B3DA01D22D8EDEF006DBFF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B3DA01D22D8EDEF006DBFF0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1B3DA02022D8EDEF006DBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B3DA02222D8EDF0006DBFF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B3DA02522D8EDF0006DBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B3DA02722D8EDF0006DBFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3DA03222D8EE37006DBFF0 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1B3DA03422D8EE42006DBFF0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1B3DA03622D8EE77006DBFF0 /* PrivatBankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivatBankCell.swift; sourceTree = "<group>"; };
+		1B3DA03822D8EE89006DBFF0 /* NBUCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBUCell.swift; sourceTree = "<group>"; };
+		1B3DA03A22D8EEA0006DBFF0 /* NBU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBU.swift; sourceTree = "<group>"; };
+		1B3DA03C22D8EEC5006DBFF0 /* PrivatBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivatBank.swift; sourceTree = "<group>"; };
+		1B3DA03E22D8EEDC006DBFF0 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1CE166C9E7644DA9BDF9B586 /* Pods-DB2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DB2.release.xcconfig"; path = "Target Support Files/Pods-DB2/Pods-DB2.release.xcconfig"; sourceTree = "<group>"; };
+		58FF1A42570B500D8680304A /* Pods-DB2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DB2.debug.xcconfig"; path = "Target Support Files/Pods-DB2/Pods-DB2.debug.xcconfig"; sourceTree = "<group>"; };
+		69D9E7B4677A161D35A315F6 /* Pods_DB2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DB2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6277468DC20EC6CCD5A8C5CD /* Pods_DB2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				1B3DA01A22D8EDEF006DBFF0 /* DB2 */,
 				1B3DA01922D8EDEF006DBFF0 /* Products */,
+				5788FF08B74C7806DE92C1D2 /* Pods */,
+				6A44CC729CAB5FAC00D8D1D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,79 @@
 		1B3DA01A22D8EDEF006DBFF0 /* DB2 */ = {
 			isa = PBXGroup;
 			children = (
+				1B3DA03122D8EE1E006DBFF0 /* Common */,
+				1B3DA03022D8EE0E006DBFF0 /* API_Service */,
+				1B3DA02F22D8EE09006DBFF0 /* Controller */,
+				1B3DA02E22D8EE06006DBFF0 /* View */,
+				1B3DA02D22D8EDF8006DBFF0 /* Model */,
 				1B3DA01B22D8EDEF006DBFF0 /* AppDelegate.swift */,
-				1B3DA01D22D8EDEF006DBFF0 /* ViewController.swift */,
 				1B3DA01F22D8EDEF006DBFF0 /* Main.storyboard */,
 				1B3DA02222D8EDF0006DBFF0 /* Assets.xcassets */,
 				1B3DA02422D8EDF0006DBFF0 /* LaunchScreen.storyboard */,
 				1B3DA02722D8EDF0006DBFF0 /* Info.plist */,
 			);
 			path = DB2;
+			sourceTree = "<group>";
+		};
+		1B3DA02D22D8EDF8006DBFF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DA03A22D8EEA0006DBFF0 /* NBU.swift */,
+				1B3DA03C22D8EEC5006DBFF0 /* PrivatBank.swift */,
+				1B3DA03E22D8EEDC006DBFF0 /* DatabaseManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B3DA02E22D8EE06006DBFF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DA03622D8EE77006DBFF0 /* PrivatBankCell.swift */,
+				1B3DA03822D8EE89006DBFF0 /* NBUCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B3DA02F22D8EE09006DBFF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DA01D22D8EDEF006DBFF0 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B3DA03022D8EE0E006DBFF0 /* API_Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DA03422D8EE42006DBFF0 /* Service.swift */,
+			);
+			path = API_Service;
+			sourceTree = "<group>";
+		};
+		1B3DA03122D8EE1E006DBFF0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1B3DA03222D8EE37006DBFF0 /* Globals.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5788FF08B74C7806DE92C1D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FF1A42570B500D8680304A /* Pods-DB2.debug.xcconfig */,
+				1CE166C9E7644DA9BDF9B586 /* Pods-DB2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A44CC729CAB5FAC00D8D1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69D9E7B4677A161D35A315F6 /* Pods_DB2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B3DA02A22D8EDF0006DBFF0 /* Build configuration list for PBXNativeTarget "DB2" */;
 			buildPhases = (
+				972CAA9F6D88D3C09AD39CAB /* [CP] Check Pods Manifest.lock */,
 				1B3DA01422D8EDEF006DBFF0 /* Sources */,
 				1B3DA01522D8EDEF006DBFF0 /* Frameworks */,
 				1B3DA01622D8EDEF006DBFF0 /* Resources */,
+				17F55DBE975D80CCFB13ADBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +218,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F55DBE975D80CCFB13ADBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DB2/Pods-DB2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DB2/Pods-DB2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DB2/Pods-DB2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972CAA9F6D88D3C09AD39CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DB2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B3DA01422D8EDEF006DBFF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3DA01E22D8EDEF006DBFF0 /* ViewController.swift in Sources */,
+				1B3DA01E22D8EDEF006DBFF0 /* MainViewController.swift in Sources */,
+				1B3DA03922D8EE89006DBFF0 /* NBUCell.swift in Sources */,
+				1B3DA03B22D8EEA0006DBFF0 /* NBU.swift in Sources */,
+				1B3DA03722D8EE77006DBFF0 /* PrivatBankCell.swift in Sources */,
+				1B3DA03522D8EE42006DBFF0 /* Service.swift in Sources */,
+				1B3DA03D22D8EEC5006DBFF0 /* PrivatBank.swift in Sources */,
 				1B3DA01C22D8EDEF006DBFF0 /* AppDelegate.swift in Sources */,
+				1B3DA03322D8EE37006DBFF0 /* Globals.swift in Sources */,
+				1B3DA03F22D8EEDC006DBFF0 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +417,7 @@
 		};
 		1B3DA02B22D8EDF0006DBFF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FF1A42570B500D8680304A /* Pods-DB2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +436,7 @@
 		};
 		1B3DA02C22D8EDF0006DBFF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE166C9E7644DA9BDF9B586 /* Pods-DB2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
