@@ -11,11 +11,11 @@ import Foundation
 class NBU {
     private(set) var name: String
     private(set) var avgPrice: String
-    private(set) var oneCurrency: String
+    private(set) var baseCurrency: String
     
     init(name: String, avgPrice: String, oneCurrency: String) {
         self.name = name
         self.avgPrice = avgPrice
-        self.oneCurrency = oneCurrency
+        self.baseCurrency = oneCurrency
     }
 }

@@ -18,6 +18,6 @@ class NBUCell: UITableViewCell {
     func setNBUCurrency(curr: NBU) {
         name.text = curr.name
         avgPrice.text = curr.avgPrice + "UAH"
-        oneCurrency.text = "1" + curr.oneCurrency
+        oneCurrency.text = "1" + curr.baseCurrency
     }
 }

@@ -6,7 +6,7 @@
 //  Copyright © 2019 Yura Velko. All rights reserved.
 //
 
-struct PrivatBank {
+class PrivatBank {
     private(set) var name: String
     private(set) var buyPrice: String
     private(set) var sellPrice: String

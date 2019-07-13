@@ -173,36 +173,35 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if tableView == privatTableView {
-            let cell = tableView.cellForRow(at: indexPath) as! PrivatBankCell
+            let selectedItem = DatabaseManager.shared.privatBankData[indexPath.row]
+            
             for curr in DatabaseManager.shared.nbuData {
-                let cellName = String(cell.name.text?.suffix(3) ?? "")
-                
-                if cellName == curr.oneCurrency {
-                    guard let index = DatabaseManager.shared.nbuData.firstIndex(where: { $0.oneCurrency == cellName }) else { return }
-                    let appropriatedIndexPath = IndexPath(row: index, section: 0)
-                    nbuTableView.scrollToRow(at: appropriatedIndexPath, at: .none, animated: true)
-                    nbuTableView.selectRow(at: appropriatedIndexPath, animated: true, scrollPosition: .none)
+                if selectedItem.name == curr.baseCurrency {
+                    guard let index = DatabaseManager.shared.nbuData.firstIndex(where: { $0 === curr }) else { return }
+                    let searchedIndexPath = IndexPath(row: index, section: 0)
+                    nbuTableView.scrollToRow(at: searchedIndexPath, at: .none, animated: true)
+                    nbuTableView.selectRow(at: searchedIndexPath, animated: true, scrollPosition: .none)
                     
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
-                        self.nbuTableView.deselectRow(at: appropriatedIndexPath, animated: true)
+                        self.nbuTableView.deselectRow(at: searchedIndexPath, animated: true)
                         self.privatTableView.deselectRow(at: indexPath, animated: true)
                     }
                 }
             }
+        
         } else {
-            let cell = tableView.cellForRow(at: indexPath) as! NBUCell
+            let selectedItem = DatabaseManager.shared.nbuData[indexPath.row]
+            
             for curr in DatabaseManager.shared.privatBankData {
-                let cellName = String(cell.oneCurrency.text?.suffix(3) ?? "")
-                
-                if cellName == curr.name {
-                    guard let index = DatabaseManager.shared.privatBankData.firstIndex(where: { $0.name == cellName}) else { return }
+                if selectedItem.baseCurrency == curr.name {
+                    guard let index = DatabaseManager.shared.privatBankData.firstIndex(where: {$0 === curr}) else { return }
+                    let searchedIndexPath = IndexPath(row: index, section: 0)
+                    privatTableView.scrollToRow(at: searchedIndexPath, at: .none, animated: true)
+                    privatTableView.selectRow(at: searchedIndexPath, animated: true, scrollPosition: .none)
                     
-                    let appropriatedIndexPath = IndexPath(row: index, section: 0)
-                    privatTableView.scrollToRow(at: appropriatedIndexPath, at: .none, animated: true)
-                    privatTableView.selectRow(at: appropriatedIndexPath, animated: true, scrollPosition: .none)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
-                        self.privatTableView.deselectRow(at: appropriatedIndexPath, animated: true)
                         self.nbuTableView.deselectRow(at: indexPath, animated: true)
+                        self.privatTableView.deselectRow(at: searchedIndexPath, animated: true)
                     }
                 }
             }
